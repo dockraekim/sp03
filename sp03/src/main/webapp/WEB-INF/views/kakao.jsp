@@ -13,7 +13,7 @@
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=324a277ee30d62459f8ffbc5edbd415b"></script>
 <script>
-	var center = new kakao.maps.LatLng(36.957475, 127.060148)
+	var center = new kakao.maps.LatLng(36.995241, 127.133431)//평택대학교 위경도	
 
 	var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 	    mapOption = { 

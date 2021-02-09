@@ -38,19 +38,19 @@ public class HomeController {
 	
 	
 	@RequestMapping(value = "/link", method = RequestMethod.GET)
-	public String link(Locale locale, Model model) {
+	public String link(Model model) {
 		
 		return "link";
 	}
 	
 	@RequestMapping(value = "/table", method = RequestMethod.GET)
-	public String table(Locale locale, Model model) {
+	public String table(Model model) {
 		
 		return "table";
 	}
 	
 	@RequestMapping(value = "/form", method = RequestMethod.GET)
-	public String form(Locale locale, Model model) {
+	public String form(Model model) {
 		
 		return "form";
 	}
@@ -73,6 +73,25 @@ public class HomeController {
 	public String js03(Locale locale, Model model) {
 		
 		return "js03";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@RequestMapping(value = "/map", method = RequestMethod.GET)
+	public String js03(Model model) {
+		
+		return "map";
 	}
 	
 	
